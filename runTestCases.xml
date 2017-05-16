@@ -1,0 +1,16 @@
+<!DOCTYPE xml>
+<suite name="Frontend Test Cases" thread-count="1" parallel="classes">
+<test verbose="2" name="LoveHolidays Technical Challenge">
+<parameters>
+<parameter name="browserName" value="chrome" />
+<parameter name="os" value="WINDOWS" />
+<parameter name="osVersion" value="10" />
+<parameter name="version" value="58" />
+<parameter name="environment" value="LIVE" />
+</parameters>
+<classes>
+<class name="test.java.UserEntersInvalidReferenceNumber" />
+<class name="test.java.UserSignsInWithInvalidReferenceNumber" />
+</classes>
+</test>
+</suite>

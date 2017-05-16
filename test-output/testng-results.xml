@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[
+## Running test *** test.java.UserEntersInvalidReferenceNumber *** at 2017-05-16 12:11:06 in LIVE]]>
+    </line>
+    <line>
+      <![CDATA[- Waiting for this element to be displayed: Welcome to Manage My Booking]]>
+    </line>
+    <line>
+      <![CDATA[- Error message tooltip is displayed which contains expected error text]]>
+    </line>
+    <line>
+      <![CDATA[- Test completed]]>
+    </line>
+    <line>
+      <![CDATA[- Tear down!]]>
+    </line>
+    <line>
+      <![CDATA[
+## Running test *** test.java.UserSignsInWithInvalidReferenceNumber *** at 2017-05-16 12:11:44 in LIVE]]>
+    </line>
+    <line>
+      <![CDATA[- Waiting for this element to be displayed: Welcome to Manage My Booking]]>
+    </line>
+    <line>
+      <![CDATA[- Error message displayed contains: Sorry this is not a valid booking reference. If you have booked within the last 24 hours please wait until you receive your LOV or LVE reference number by email before logging in.]]>
+    </line>
+    <line>
+      <![CDATA[- Test completed]]>
+    </line>
+    <line>
+      <![CDATA[- Tear down!]]>
+    </line>
+  </reporter-output>
+  <suite name="Frontend Test Cases" duration-ms="68341" started-at="2017-05-16T11:11:05Z" finished-at="2017-05-16T11:12:14Z">
+    <groups>
+    </groups>
+    <test name="LoveHolidays Technical Challenge" duration-ms="68341" started-at="2017-05-16T11:11:05Z" finished-at="2017-05-16T11:12:14Z">
+      <class name="test.java.UserEntersInvalidReferenceNumber">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.UserEntersInvalidReferenceNumber@29ca901e]" name="setUp" is-config="true" duration-ms="26625" started-at="2017-05-16T12:11:05Z" finished-at="2017-05-16T12:11:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[58]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LIVE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+## Running test *** test.java.UserEntersInvalidReferenceNumber *** at 2017-05-16 12:11:06 in LIVE]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="scenarioOneTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.UserEntersInvalidReferenceNumber@29ca901e]" name="scenarioOneTest" duration-ms="9156" started-at="2017-05-16T12:11:32Z" data-provider="userEntersInvalidReferenceNumber1" finished-at="2017-05-16T12:11:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Loveholidays | Discover and book your perfect holiday]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1702LCCCQV9H]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your booking reference starts with LVE or LOV and can be found on your booking summary.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[- Waiting for this element to be displayed: Welcome to Manage My Booking]]>
+            </line>
+            <line>
+              <![CDATA[- Error message tooltip is displayed which contains expected error text]]>
+            </line>
+            <line>
+              <![CDATA[- Test completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenarioOneTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.UserEntersInvalidReferenceNumber@29ca901e]" name="tearDown" is-config="true" duration-ms="2327" started-at="2017-05-16T12:11:41Z" finished-at="2017-05-16T12:11:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[- Tear down!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.java.UserEntersInvalidReferenceNumber -->
+      <class name="test.java.UserSignsInWithInvalidReferenceNumber">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.UserSignsInWithInvalidReferenceNumber@5649fd9b]" name="setUp" is-config="true" duration-ms="15868" started-at="2017-05-16T12:11:44Z" finished-at="2017-05-16T12:11:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[58]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LIVE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+## Running test *** test.java.UserSignsInWithInvalidReferenceNumber *** at 2017-05-16 12:11:44 in LIVE]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="scenarioTwoTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.UserSignsInWithInvalidReferenceNumber@5649fd9b]" name="scenarioTwoTest" duration-ms="10403" started-at="2017-05-16T12:11:59Z" data-provider="userEntersInvalidReferenceNumber2" finished-at="2017-05-16T12:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Loveholidays | Discover and book your perfect holiday]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LVE1702LCCCQV9H]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[- Waiting for this element to be displayed: Welcome to Manage My Booking]]>
+            </line>
+            <line>
+              <![CDATA[- Error message displayed contains: Sorry this is not a valid booking reference. If you have booked within the last 24 hours please wait until you receive your LOV or LVE reference number by email before logging in.]]>
+            </line>
+            <line>
+              <![CDATA[- Test completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenarioTwoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.UserSignsInWithInvalidReferenceNumber@5649fd9b]" name="tearDown" is-config="true" duration-ms="3816" started-at="2017-05-16T12:12:10Z" finished-at="2017-05-16T12:12:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[- Tear down!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.java.UserSignsInWithInvalidReferenceNumber -->
+    </test> <!-- LoveHolidays Technical Challenge -->
+  </suite> <!-- Frontend Test Cases -->
+</testng-results>
