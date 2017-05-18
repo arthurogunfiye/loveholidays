@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
  */
 public class ManageMyBookingPage {
 
-	public WebDriver driver;
+    public WebDriver driver;
 
     /**
      * @param driver WebDriver driver instance
@@ -39,8 +39,8 @@ public class ManageMyBookingPage {
      * @param surname
      */
     public void fillAndSubmitManageMyBookingForm(String referenceNumber, String surname) {
-    	referenceNumberField.sendKeys(referenceNumber);
-    	surnameField.sendKeys(surname);
-    	signInButton.click();
+        referenceNumberField.sendKeys(referenceNumber);
+        surnameField.sendKeys(surname);
+        signInButton.click();
     }
 }
